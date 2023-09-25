@@ -1,7 +1,7 @@
-package org.example;
+package org.company;
 
-import org.example.Enums.CargoTypeEnum;
-import org.example.Exceptions.NoDriversAvailableException;
+import org.company.Enums.CargoTypeEnum;
+import org.company.Exceptions.NoDriversAvailableException;
 
 import java.util.List;
 

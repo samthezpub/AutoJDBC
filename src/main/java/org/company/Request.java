@@ -1,6 +1,6 @@
-package org.example;
+package org.company;
 
-import com.company.Enums.CargoTypeEnum;
+import org.company.Enums.CargoTypeEnum;
 
 public class Request {
     private String destination;

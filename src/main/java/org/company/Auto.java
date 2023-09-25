@@ -1,6 +1,6 @@
-package org.example;
+package org.company;
 
-import com.company.Enums.CargoTypeEnum;
+import org.company.Enums.CargoTypeEnum;
 
 public class Auto {
     private String destination;
@@ -11,11 +11,10 @@ public class Auto {
 
     private float carStatus;
 
-    public Auto(String destination, int cargoQuantity, CargoTypeEnum type, Driver driver, float carStatus) {
+    public Auto(String destination, int cargoQuantity, CargoTypeEnum type, float carStatus) {
         this.destination = destination;
         this.cargoQuantity = cargoQuantity;
         this.type = type;
-        this.driver = driver;
     }
 
     @Override

@@ -1,4 +1,4 @@
-package org.example.Enums;
+package org.company.Enums;
 
 public enum CargoTypeEnum {
     BULK,
